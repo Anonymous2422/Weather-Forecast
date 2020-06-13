@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			defer
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<title>Ajax API</title>
+	</head>
+	<body>
+		<div class="main">
+			<h1>Weather Forecast</h1>
+			<div class="main-container">
+				<div class="form-container">
+					<input class="form-input" type="text" placeholder="Enter City" />
+					<input class="form-btn" type="button" value="search" />
+
+					<div class="card">
+						<!-- <span class="material-icons close-btn">
+							close
+						</span> -->
+						<input
+							class="material-icons close-btn"
+							type="button"
+							name="close"
+							id=""
+							value="close"
+						/>
+						<div class="data">
+							<img
+								class="logo"
+								src="http://openweathermap.org/img/wn/10d@2x.png"
+								alt="Rain"
+							/>
+							<span class="temp"><sup>o</sup></span>
+						</div>
+						<div class="time"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script defer src="apidemp.js"></script>
+	</body>
+</html>
